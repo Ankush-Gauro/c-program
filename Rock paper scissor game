@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<time.h>
 
-int game(char you , char comp);
+int game(char you , char comp)
 {
 
 if (you==comp)
@@ -17,7 +17,7 @@ else if (you == 'p' && comp == 's')
 { 
 return -1;
 }
-if (you == 'r' && comp 'p')
+if (you == 'r' && comp == 'p')
 {
 return -1;
 }
@@ -25,7 +25,7 @@ else if (you == 'p' && comp == 'r')
 {
 return 1;
 }
-if (you == 's' && comp 'r')
+if (you == 's' && comp == 'r')
 {
 return -1;
 }
